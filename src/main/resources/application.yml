@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: "NoOrderStateMachine"
+
+  datasource:
+    url: jdbc:h2:mem:state-machine
+
+  h2:
+    console.enabled: true
